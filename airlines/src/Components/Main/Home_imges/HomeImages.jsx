@@ -22,7 +22,11 @@ function Home() {
       {/* This is a Retails Shop */}
 
       <div class="card">
-        <img src="./images/Airindia.jpg" class="card-img-bottom" alt="..." />
+        <img
+          src="./images/Retail_shop.avif"
+          class="card-img-bottom"
+          alt="..."
+        />
         <div class="card-body">
           <h5 class="card-title">Airport Retails Shops</h5>
           <p class="card-text">
@@ -36,7 +40,7 @@ function Home() {
       </div>
       {/* Maintenance and Engineering */}
       <div class="card">
-        <img src="./images/Airindia.jpg" class="card-img-bottom" alt="..." />
+        <img src="./images/Vistara.webp" class="card-img-bottom" alt="..." />
         <div class="card-body">
           <h5 class="card-title">Maintenance & Engineering</h5>
           <p class="card-text">
@@ -64,7 +68,7 @@ function Home() {
       </div>
       {/* Assist Service */}
       <div class="card">
-        <img src="./images/Airindia.jpg" class="card-img-bottom" alt="..." />
+        <img src="./images/Airlines.webp" class="card-img-bottom" alt="..." />
         <div class="card-body">
           <h5 class="card-title">Assist Services</h5>
           <p class="card-text">
@@ -90,7 +94,7 @@ function Home() {
         </div>
       </div>
       <div class="card">
-        <img src="./images/Airindia.jpg" class="card-img-bottom" alt="..." />
+        <img src="./images/Spice_Jet.webp" class="card-img-bottom" alt="..." />
         <div class="card-body">
           <h5 class="card-title">Airlines Food Service Worker</h5>
           <p class="card-text">
