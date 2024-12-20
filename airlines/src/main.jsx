@@ -10,7 +10,12 @@ const router = createBrowserRouter([
   {
     path: "/service/",
     element: <App />,
-    children: [{ path: "/service/vacancy", element: <Vacancy /> }],
+    children: [
+      {
+        path: "https://earoflot.github.io/service/vacancy",
+        element: <Vacancy />,
+      },
+    ],
   },
 ]);
 
