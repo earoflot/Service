@@ -1,3 +1,4 @@
+import "./Home.css";
 function Home() {
   return (
     <>
@@ -13,7 +14,7 @@ function Home() {
           <p class="card-text">
             Ground handling is a vital part of the aviation industry that
             involves the services required to operate an aircraft while it's on
-            the ground at an airport
+            the ground at an airport.
           </p>
           <p class="card-text">
             <small class="text-body-secondary">Last updated 3 mins ago</small>
