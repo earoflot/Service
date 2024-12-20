@@ -1,5 +1,5 @@
-import "./Services.css";
-function Services() {
+import "./Vacancy.css";
+function Vacancy() {
   return (
     <>
       {/* This is a Gound Handling */}
@@ -161,4 +161,4 @@ function Services() {
   );
 }
 
-export default Services;
+export default Vacancy;

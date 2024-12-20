@@ -1,8 +1,8 @@
 import "bootstrap/dist/css/bootstrap.min.css";
-import NavigationDrawer from "./Components/NavigationDrawer/NavigationDrawer";
-import Footer from "./Components/Footer/Footer";
+import NavigationDrawer from "../Components/NavigationDrawer/NavigationDrawer";
+import Footer from "../Components/Footer/Footer";
 import "./App.css";
-import Services from "./Pages/Service/Services";
+import { Outlet } from "react-router-dom";
 
 function App() {
   return (
@@ -10,8 +10,7 @@ function App() {
       <div className="container-fluid">
         <div className="container">
           <NavigationDrawer></NavigationDrawer>
-          <Services></Services>
-
+          <Outlet />
           <Footer></Footer>
         </div>
       </div>
