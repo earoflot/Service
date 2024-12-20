@@ -1,5 +1,5 @@
-import "./Home.css";
-function Home() {
+import "./Services.css";
+function Services() {
   return (
     <>
       {/* This is a Gound Handling */}
@@ -143,7 +143,7 @@ function Home() {
   );
 }
 
-export default Home;
+export default Services;
 
 // function Home() {
 //   return (
