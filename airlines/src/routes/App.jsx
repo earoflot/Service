@@ -15,7 +15,7 @@ function App() {
           <NavigationDrawer></NavigationDrawer>
           <Routes>
             <Route path="/" element={<Home />}></Route>
-            <Route path="/vacancy" element={<Vacancy />}></Route>
+            <Route path="/Vacancy" element={<Vacancy />}></Route>
           </Routes>
           <Footer></Footer>
         </div>
