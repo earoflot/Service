@@ -1,7 +1,8 @@
-import NavigationDrawer from "../Components/NavigationDrawer/NavigationDrawer";
-import Footer from "../Components/Footer/Footer";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
+
+import NavigationDrawer from "../Components/NavigationDrawer/NavigationDrawer";
+import Footer from "../Components/Footer/Footer";
 import Vacancy from "../Pages/Service/Vacancy.jsx";
 
 function App() {
