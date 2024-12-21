@@ -9,11 +9,12 @@ function App() {
   return (
     <>
       <div className="container-fluid">
-        <div className="container"></div>
-        <NavigationDrawer />
-        <Vacancy />
+        <div className="container">
+          <NavigationDrawer />
+          <Vacancy />
 
-        <Footer />
+          <Footer />
+        </div>
       </div>
     </>
   );
