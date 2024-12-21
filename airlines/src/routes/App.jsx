@@ -11,14 +11,10 @@ function App() {
   return (
     <>
       <div className="container-fluid">
-        <div className="container">
-          <NavigationDrawer></NavigationDrawer>
-          <Routes>
-            <Route path="/" element={<Home />}></Route>
-            <Route path="/Vacancy" element={<Vacancy />}></Route>
-          </Routes>
-          <Footer></Footer>
-        </div>
+        <div className="container"></div>
+        <NavigationDrawer />
+        <Outlet />
+        <Footer />
       </div>
     </>
   );
