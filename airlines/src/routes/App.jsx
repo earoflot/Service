@@ -14,8 +14,8 @@ function App() {
         <div className="container">
           <NavigationDrawer></NavigationDrawer>
           <Routes>
-            <Route path="/service/" element={<Home />}></Route>
-            <Route path="/service/vacancy/" element={<Vacancy />}></Route>
+            <Route path="/" element={<Home />}></Route>
+            <Route path="/vacancy" element={<Vacancy />}></Route>
           </Routes>
           <Footer></Footer>
         </div>
