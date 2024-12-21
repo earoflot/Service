@@ -15,7 +15,7 @@ function NavigationDrawer() {
             <Nav.Link href="#link">NOTIFICATIONS</Nav.Link>
             <NavDropdown title="SERVICES" id="basic-nav-dropdown">
               <NavDropdown.Item href="#action/3.1">APPLY</NavDropdown.Item>
-              <NavDropdown.Item href="/service/vacancy">
+              <NavDropdown.Item to="/service/vacancy">
                 JOB VACANCY
               </NavDropdown.Item>
               <NavDropdown.Item href="#action/3.3">PLACEMENT</NavDropdown.Item>
