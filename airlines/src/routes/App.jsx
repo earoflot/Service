@@ -5,6 +5,7 @@ import Footer from "../Components/Footer/Footer";
 import "./App.css";
 import { Outlet } from "react-router-dom";
 import Vacancy from "../Pages/Service/Vacancy.jsx";
+import Home from "../Pages/Home/Home.jsx";
 
 function App() {
   return (
@@ -13,7 +14,8 @@ function App() {
         <div className="container">
           <NavigationDrawer></NavigationDrawer>
           <Routes>
-            <Route path="/service/" element={<Vacancy></Vacancy>}></Route>
+            <Route path="/service/" element={<Home />}></Route>
+            <Route path="/service/vacancy/" element={<Vacancy />}></Route>
           </Routes>
           <Footer></Footer>
         </div>
