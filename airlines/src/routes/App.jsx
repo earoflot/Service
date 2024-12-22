@@ -5,6 +5,7 @@ import NavigationDrawer from "../Components/NavigationDrawer/NavigationDrawer";
 import Footer from "../Components/Footer/Footer";
 import Vacancyitems from "../Items/vacancy/Vacancyitems.jsx";
 import Notificationitems from "../Items/notification/Notificationitems.jsx";
+import Apply from "../Pages/Apply/Apply.jsx";
 
 function App() {
   const vacancyData = [
@@ -109,6 +110,7 @@ function App() {
       <div className="container-fluid">
         <div className="container">
           <NavigationDrawer />
+          <Apply />
           <Notificationitems notificationItems={notificationData} />
 
           <Vacancyitems jobItems={vacancyData} />
