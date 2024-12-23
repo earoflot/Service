@@ -11,7 +11,7 @@ function App() {
   const vacancyData = [
     {
       /* This is a Gound Handling */
-      jobImage: "./src/assets/images/Ground_Handling.jpeg",
+      jobImage: "./public/images/Ground_Handling.jpeg",
       jobTitle: "Ground Handling",
       jobDescription:
         "Ground handling is a vital part of the aviation industry that involves the services required to operate an aircraft while it's on the ground at an airport",
