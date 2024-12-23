@@ -110,8 +110,8 @@ function App() {
       <div className="container-fluid">
         <div className="container">
           <NavigationDrawer />
-          <Apply />
-          <Notificationitems notificationItems={notificationData} />
+          {/* <Apply /> */}
+          {/* <Notificationitems notificationItems={notificationData} /> */}
 
           <Vacancyitems jobItems={vacancyData} />
 
