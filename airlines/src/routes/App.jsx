@@ -2,8 +2,6 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 import NavigationDrawer from "../Components/NavigationDrawer/NavigationDrawer";
 import Footer from "../Components/Footer/Footer";
-import { Jobpost } from "../Items/Items";
-import { Notifications } from "../Items/Items";
 
 function App() {
   const postData = [
@@ -107,8 +105,6 @@ function App() {
   return (
     <>
       <NavigationDrawer />
-      <Jobpost PostData={postData} />
-      <Notifications />
 
       <Footer />
     </>

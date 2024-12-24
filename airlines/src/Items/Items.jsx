@@ -5,6 +5,7 @@ export function Jobpost({ PostData }) {
     <>
       {PostData.map((data) => (
         <Post
+          key={data}
           jobImages={data.Image}
           jobTitle={data.Title}
           jobDescription={data.Description}
