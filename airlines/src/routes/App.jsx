@@ -9,7 +9,7 @@ function App() {
   const postData = [
     {
       /* This is a Gound Handling */
-      Image: "./src/assets/images/Ground_Handling.jpeg",
+      Image: "./public/images/Ground_Handling.jpeg",
       Title: "Ground Handling",
       Description:
         "Ground handling is a vital part of the aviation industry that involves the services required to operate an aircraft while it's on the ground at an airport",
