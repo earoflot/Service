@@ -1,11 +1,17 @@
 import React from "react";
-import Notification from "../../Pages/Notifications/Notification.jsx";
 
 export default function Notificationitems({ notificationItems }) {
+  console.log(notificationItems);
+  console.log(notificationItems.Title);
   return (
     <div>
       {notificationItems.map((Item) => (
-        <Notification Title={Item.Title} Description={Item.Description} />
+        <Accordion defaultActiveKey="0">
+          <Accordion.Item eventKey="0">
+            <Accordion.Header>{Item.Title}</Accordion.Header>
+            <Accordion.Body>{Item.Description}</Accordion.Body>
+          </Accordion.Item>
+        </Accordion>
       ))}
     </div>
   );

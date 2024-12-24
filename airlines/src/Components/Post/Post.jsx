@@ -1,5 +1,4 @@
-import "./Vacancy.css";
-function Vacancy({ jobImages, jobTitle, jobDescription, jobUpdated }) {
+function Post({ jobTitle, jobDescription, jobUpdated, jobImages }) {
   return (
     <>
       {/* This is a Gound Handling */}
@@ -17,4 +16,4 @@ function Vacancy({ jobImages, jobTitle, jobDescription, jobUpdated }) {
   );
 }
 
-export default Vacancy;
+export default Post;
